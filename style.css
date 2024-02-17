@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------- HEADER --------------*/
+header {
+    display: inline;
+}
+
+.navbar-container {
+    background-color: #2D9596;
+    width: 100%;
+    max-width: 1200px;
+    padding-block: 1rem;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.nav-list ul {
+    padding-left: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+.nav-list li {
+    list-style-type: none;
+}
+
+.nav-list li a {
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-list li:hover a {
+    background-color: #9AD0C2;
+    color: white;
+}
+/*--------------- MAIN -------------*/
+main {
+    background-color: #F1FADA;
+    flex: 1;
+    
+    width: 100%; max-width: 1200px;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+
+    display: flex; flex-direction: column;
+    gap: 2rem;
+}
+
+.content {
+    flex: 1;
+
+    display: block;
+    align-items: center;
+}
+
+.content-description {
+    flex: 1 1;
+
+}
+
+.title {
+    margin-block: 1rem;
+
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.content-description p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.content-description button {
+    padding: 0.8rem 3rem;
+    border: 3px solid transparent;
+    border-radius: 1000px;
+    margin-block-start: 1rem;
+
+    background-color: #265073;
+
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.30s ease-in;
+}
+
+.content-description button:hover {
+    border: 3px solid #265073;
+    background-color: transparent;
+
+    color: #2D9596;
+}
+
+.text-image {
+    display: flex;
+}
+  
+.text-image > div {
+    width: 50%;
+}
+  
+.content-image img {
+    display: block;
+    width: 100%;
+}
+
+#Fitur img {
+    display: block;
+    width: 100%;
+}
+
+.content-image img {
+    width: 400px;
+    min-width: 250px;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.section .fitur-description {
+    flex: 1 1;
+}
+
+.section .fitur-description .title {
+    margin-block: 1rem;
+
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section.fitur-description p {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+}
+
+.section .feature-image {
+    flex: 1;
+    display: flex;
+
+    width: 250px;
+    min-width: 150px;
+    margin: 1rem;
+    padding: 2rem;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+section .text-image div {
+    width: 50%;
+}
+  
+section .content-image img {
+    display: block;
+    width: 100%;
+}
+
+.card {
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+.form-pemesanan {
+    box-sizing: border-box;
+    border-width: 50px;
+}
+
+.form-pemesanan .title {
+    font-size: 3rem;
+    line-height: normal;
+}
+
+.form-pemesanan .email {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+}
+
+
+
+
+
+
+
